@@ -14,8 +14,7 @@
 /node_modules
 
 /.byebug_history
-
-
+/.webpack.config.js
 
 
 

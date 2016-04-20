@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./lib/main.js",
+  entry: "./lib/entry.js",
   output: {
   	filename: "./lib/strikeUPjs.js"
   },

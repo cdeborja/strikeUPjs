@@ -2,6 +2,10 @@
 
 strikeUPjs is a lite replication of the jQuery library functionality using javascript and the native DOM API built in the browser.
 
+Try out a quick quiz game using strikeUPjs [here][50stateQuiz]
+
+[50stateQuiz]: www.christopherdeborja.com/strikeUPjs
+
 ## Features
 
 With the strikeUP collection, they are many strikeUP objects that you can `strike` with the following commands:

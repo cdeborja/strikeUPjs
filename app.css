@@ -25,13 +25,12 @@ canvas {
 
 
 body {
-  font-family: "Bangers";
   font-size: 14px;
   background-size: cover;
   background-position: left -10px bottom -50px;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: #FFFFFF;
+  background-color: #ccc;
 }
 
 ul {
@@ -44,12 +43,60 @@ img {
   height: auto;
 }
 
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  margin: 5px 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.submit-box {
+  margin: 0 auto;
+  padding: 10px 20px;
+  width: 500px;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+.submit-field {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #fff;
+}
+
 .green {
-  font-size: 20px;
   font-weight: bold;
   color: green;
 }
 
 .red {
   color: red;
+}
+
+.button-box {
+  margin: 0 auto;
+  width: 500px;
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.button-box > button {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.state-list {
+  width: 500px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.state-list > li {
+  font-size: 20px;
 }

@@ -17,20 +17,13 @@ button, article, footer, small {
 }
 /* --- ELEMENTS --- */
 
-canvas {
-  display: block;
-  margin: auto;
-  border: 5px solid black;
-}
-
-
 body {
   font-size: 14px;
   background-size: cover;
   background-position: left -10px bottom -50px;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: #ccc;
+  background-color: #eee;
 }
 
 ul {
@@ -54,31 +47,52 @@ h3 {
   text-align: center;
 }
 
+input {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+}
+
 .submit-box {
   margin: 0 auto;
   padding: 10px 20px;
-  width: 500px;
-  border-radius: 5px;
-  border: 5px solid black;
+  width: 375px;
 }
 .submit-field {
-  padding: 5px 10px;
+  padding: 10px 10px;
   border-radius: 5px;
   background: #fff;
+  width: 250px;
 }
 
 .green {
   font-weight: bold;
-  color: green;
+  color: #29ce2c;
 }
 
 .red {
-  color: red;
+  color: #d02121;
+}
+
+.add {
+  margin-left: 5px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.container {
+  margin: 0 auto;
 }
 
 .button-box {
-  margin: 0 auto;
-  width: 500px;
+  margin: 0 auto 20px auto;
+  width: 415px;
   border: 5px solid black;
   border-radius: 5px;
   padding: 10px 20px;
@@ -94,9 +108,32 @@ h3 {
   width: 500px;
   border: 3px solid black;
   border-radius: 5px;
-  margin: 0 auto;
+  padding: 10px 25px;
+  margin: 20px auto;
 }
 
 .state-list > li {
   font-size: 20px;
+  margin: 5px;
+}
+
+.instructions {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.instructions > h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.instructions > p {
+  font-size: 16px;
+  line-height: 19px;
+}
+button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
 }

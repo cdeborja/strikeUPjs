@@ -4,7 +4,7 @@ strikeUPjs is a lite replication of the jQuery library functionality using javas
 
 Try out a quick quiz game using strikeUPjs [here][50stateQuiz]
 
-[50stateQuiz]: www.christopherdeborja.com/strikeUPjs
+[50stateQuiz]: http://www.christopherdeborja.com/strikeUPjs
 
 ## Features
 

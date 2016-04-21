@@ -137,3 +137,12 @@ button:hover {
   color: white;
   cursor: pointer;
 }
+
+.error {
+  text-align: center;
+  color: red;
+}
+
+.hidden {
+  display: none;
+}

@@ -92,7 +92,7 @@ input:focus {
 
 .button-box {
   margin: 0 auto 20px auto;
-  width: 415px;
+  width: 425px;
   border: 5px solid black;
   border-radius: 5px;
   padding: 10px 20px;
@@ -118,7 +118,7 @@ input:focus {
 }
 
 .instructions {
-  width: 350px;
+  width: 450px;
   margin: 0 auto;
 }
 

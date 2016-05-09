@@ -23,7 +23,10 @@ body {
   background-position: left -10px bottom -50px;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: #eee;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2980b9 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFFFFF;
 }
 
 ul {
@@ -48,6 +51,7 @@ h3 {
 }
 
 input {
+  color: #000000;
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
   -ms-transition: all 0.30s ease-in-out;
@@ -80,10 +84,30 @@ input:focus {
 }
 
 .add {
-  margin-left: 5px;
-  border: 1px solid black;
-  padding: 10px 20px;
-  border-radius: 25px;
+  background-color: #f7f7f7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7);
+  background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7);
+  background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7);
+  background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7);
+  color: #a7a7a7;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  width: 100px;
+  height: 44px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 3px 8px #000, inset 0px 2px 3px #fff;
+  color: black;
+}
+
+.add:hover {
+  background: rgba(81, 203, 238, 1);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 3px 8px #000, inset 0px 2px 3px #3da2bf;
 }
 
 .container {
@@ -93,15 +117,41 @@ input:focus {
 .button-box {
   margin: 0 auto 20px auto;
   width: 425px;
-  border: 5px solid black;
+  border: 2px dashed black;
   border-radius: 5px;
   padding: 10px 20px;
+  background: #FFFFFF;
 }
 
 .button-box > button {
-  border: 1px solid black;
+  background-color: #f7f7f7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7);
+  background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7);
+  background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7);
+  background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7);
+  color: #a7a7a7;
+  margin-right: 5px;
+  width: 136px;
+  height: 44px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+  color: black;
+}
+
+.button-box > button:last-child {
   padding: 10px 20px;
   border-radius: 20px;
+  background: red;
+  margin-right: 0;
+  padding-top: -10px;
+}
+
+.button-box> button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
 }
 
 .state-list {
@@ -110,6 +160,8 @@ input:focus {
   border-radius: 5px;
   padding: 10px 25px;
   margin: 20px auto;
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 .state-list > li {
@@ -131,11 +183,6 @@ input:focus {
 .instructions > p {
   font-size: 16px;
   line-height: 19px;
-}
-button:hover {
-  background: black;
-  color: white;
-  cursor: pointer;
 }
 
 .error {

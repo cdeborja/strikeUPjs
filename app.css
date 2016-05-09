@@ -145,7 +145,6 @@ input:focus {
   border-radius: 20px;
   background: red;
   margin-right: 0;
-  padding-top: -10px;
 }
 
 .button-box> button:hover {

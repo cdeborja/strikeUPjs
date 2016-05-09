@@ -44,10 +44,13 @@ document.addEventListener('DOMContentLoaded', function () {
 ###Public API
 
 * $su(arg) - Create a new DOMstrikecollection or append a callback to be called on DOM ready.
+```
   * $su.extend(baseObject[,object1]...[objectN]) - merge one or more objects into the base object.
   * $su.ajax([options]) - Asynchronus XMLHttpRequest
+```
 
 * DOMstrikecollection.prototype
+```
   * html - takes a string as an argument and sets the innerHTML of each strikeUP object. If no string is given, it will return all the innerHTMLs of all objects in given collection
   * empty - clears out the html of the collection
   * append - inserts content, specified by the parameter, to the end of each element in the set of matched elements
@@ -60,3 +63,4 @@ document.addEventListener('DOMContentLoaded', function () {
   * remove - will remove all children of all strikeUP objects in collection.
   * on - adds an add event listener on a given event, and then calls a given callback upon execution of event name
   * off - removes the event listener if one is already attached
+```

@@ -1,6 +1,6 @@
 #strikeUPjs
 
-strikeUPjs is a library that utilizes javascript and the native DOM API built in the browser. strikeUPjs contains methods that allow the adding or removing of classes to HTML elements and adding or removing of event listeners.
+strikeUPjs is a library that utilizes javascript and the native DOM API built in the browser. strikeUPjs contains functions that allow the adding or removing of classes to HTML elements and adding or removing of event listeners.
 
 Try out a quick 50 states quiz game using strikeUPjs [here](http://www.christopherdeborja.com/strikeUPjs)
 

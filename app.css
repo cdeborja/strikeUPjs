@@ -204,3 +204,41 @@ input:focus {
 .hidden {
   display: none;
 }
+
+/*AUTHOR CSS*/
+.author-navigation {
+  display: table;
+  margin: 20px auto;
+  width: 50%;
+  min-width: 200px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background: #FFFFFF;
+  color: #000000;
+  padding-left: 0px;
+}
+
+.author-navigation:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.author-navigation > h2 {
+  display: block;
+  margin: 12px;
+  font-size: 14px;
+}
+
+.author-navigation > li {
+  padding: 0 2px;
+  display: table-cell;
+  text-align: center;
+  transition: background-color 500ms, transform 500ms, color 500ms;
+}
+
+.author-navigation > li:hover {
+  cursor: pointer;
+  background: #3da2bf;
+  color: #FFFFFF;
+}

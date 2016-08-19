@@ -230,14 +230,14 @@ input:focus {
   font-size: 14px;
 }
 
-.author-navigation > li {
+.author-navigation > div {
   padding: 0 2px;
   display: table-cell;
   text-align: center;
   transition: background-color 500ms, transform 500ms, color 500ms;
 }
 
-.author-navigation > li:hover {
+.author-navigation > div:hover {
   cursor: pointer;
   background: #3da2bf;
   color: #FFFFFF;

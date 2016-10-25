@@ -9,7 +9,7 @@ Try out a quick 50 states quiz game using strikeUPjs [here](http://www.christoph
 * $su can be used with selectors of either strings, HTML element objects, or functions to create a new DOMstrikecollection. Functions will be registered and called as soon as the document is ready, or immediately if document is already ready.
 
 Example:
-```
+```javascript
 function $su (arg) {
   if (typeof arg === "string") {
     var strikeUp = document.querySelectorAll(arg);
